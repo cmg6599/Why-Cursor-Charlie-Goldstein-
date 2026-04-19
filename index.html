@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Why I Want to Join the Race at Cursor, Charles Goldstein</title>
+    <meta name="author" content="Charles Goldstein" />
+    <meta
+      name="description"
+      content="Charles (Charlie) Goldstein: a scrollable pitch on joining Cursor's sales team and how Cursor can win the IDE race."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="particles" class="particles" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+
+    <a class="site-portrait" href="#closing" aria-label="Charles (Charlie) Goldstein, jump to closing">
+      <img
+        class="site-portrait__img"
+        src="./assets/headshot.png"
+        width="176"
+        height="176"
+        alt="Headshot of Charles (Charlie) Goldstein"
+      />
+    </a>
+
+    <!-- Slide 1: Hero -->
+    <header class="slide slide--hero" id="hero">
+      <div class="slide__inner slide__inner--hero">
+        <div class="hero-logo-trio hero-entrance" data-entrance aria-hidden="true">
+          <div class="hero-logo-trio__center">
+            <img class="hero-logo-trio__cursor" src="./assets/cursor-logo.svg" width="520" height="127" alt="" />
+          </div>
+          <div class="hero-logo-trio__siblings">
+            <div class="hero-logo-trio__side hero-logo-trio__side--a">
+              <img src="./assets/anthropic.svg" width="64" height="64" alt="" />
+            </div>
+            <div class="hero-logo-trio__side hero-logo-trio__side--o">
+              <img src="./assets/openai.svg" width="64" height="64" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h1 class="hero-headline hero-entrance" data-entrance>
+          <span class="hero-headline__line1">It's Race Time at Cursor.</span>
+          <span class="hero-headline__line2">And I Want to join the marathon!</span>
+        </h1>
+        <p class="hero-sub hero-entrance" data-entrance>
+          A visual pitch on why I want to join Cursor's sales team, and how Cursor wins the IDE race.
+        </p>
+        <p class="hero-byline hero-entrance" data-entrance>Charlie Goldstein · San Francisco</p>
+      </div>
+    </header>
+
+    <main>
+      <!-- Slide 2: Giants -->
+      <section class="slide slide--giants" id="race">
+        <div class="slide__inner">
+          <h2 class="slide-title reveal" data-reveal>The Giants Are Running</h2>
+          <div class="vs-block reveal" data-reveal>
+            <div class="vs-block__logo vs-block__logo--a">
+              <img src="./assets/anthropic.svg" width="88" height="88" alt="" />
+            </div>
+            <div class="vs-block__badge vs-glow" aria-hidden="true">VS</div>
+            <div class="vs-block__logo vs-block__logo--o">
+              <img src="./assets/openai.svg" width="88" height="88" alt="" />
+            </div>
+          </div>
+          <div class="punch-row punch-row--2 reveal" data-reveal>
+            <p class="punch punch--xl">Codex is cheap.</p>
+            <p class="punch punch--xl">Claude Code feels smart in moments.</p>
+          </div>
+          <p class="punch punch--center punch--delay reveal" data-reveal data-reveal-delay>But Cursor owns the workflow.</p>
+          <div class="punch-stack reveal" data-reveal>
+            <p class="punch punch--lg">Cursor was first.</p>
+            <p class="punch punch--lg">First means distribution.</p>
+            <p class="punch punch--lg">First means trust.</p>
+          </div>
+          <p class="voice-line reveal" data-reveal>
+            <strong class="voice-line__good">Cursor wins if it owns workflow and team adoption.</strong>
+          </p>
+        </div>
+      </section>
+
+      <!-- Slide 3: Moat -->
+      <section class="slide slide--moat" id="moat">
+        <div class="slide__inner">
+          <h2 class="slide-title reveal" data-reveal>The Moat No One Can Replicate</h2>
+          <div class="card-grid card-grid--4" id="moatCards">
+            <article class="deck-card deck-card--stagger" data-stagger>
+              <h3 class="deck-card__title">Real Coding Behavior Data</h3>
+            </article>
+            <article class="deck-card deck-card--stagger" data-stagger>
+              <h3 class="deck-card__title">Iteration Loops</h3>
+            </article>
+            <article class="deck-card deck-card--stagger" data-stagger>
+              <h3 class="deck-card__title">Debugging Patterns</h3>
+            </article>
+            <article class="deck-card deck-card--stagger" data-stagger>
+              <h3 class="deck-card__title">Repo-Level Context</h3>
+            </article>
+          </div>
+          <div class="mega-quote reveal" data-reveal>
+            <p class="mega-quote__line">Models can be commoditized.</p>
+            <p class="mega-quote__line mega-quote__line--accent">Workflow data can't.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 4: How Cursor Wins -->
+      <section class="slide slide--wins" id="wins">
+        <div class="slide__inner">
+          <h2 class="slide-title reveal" data-reveal>This Isn't Cursor vs Claude vs Codex</h2>
+          <p class="reframe-line reveal" data-reveal>It's who becomes the default AI coding environment for developers and teams.</p>
+          <div class="card-grid card-grid--2" id="winCards">
+            <article class="deck-card deck-card--win deck-card--stagger" data-stagger>
+              <h3 class="deck-card__title">Own the Workflow</h3>
+              <p class="deck-card__sub">Be where devs write, edit, debug, and ship</p>
+            </article>
+            <article class="deck-card deck-card--win deck-card--stagger" data-stagger>
+              <h3 class="deck-card__title">Proprietary Data</h3>
+              <p class="deck-card__sub">Irreplaceable real usage insights</p>
+            </article>
+            <article class="deck-card deck-card--win deck-card--stagger" data-stagger>
+              <h3 class="deck-card__title">Speed + UX</h3>
+              <p class="deck-card__sub">Developers are ruthless. Win on flow state.</p>
+            </article>
+            <article class="deck-card deck-card--win deck-card--stagger" data-stagger>
+              <h3 class="deck-card__title">Enterprise Layer</h3>
+              <p class="deck-card__sub">Security, collaboration, scale. This is where sales wins.</p>
+            </article>
+            <article class="deck-card deck-card--win deck-card--spotlight" id="winCardSpotlight">
+              <h3 class="deck-card__title">
+                <span class="deck-card__title-stack">
+                  <span class="deck-card__title-line">Model Neutrality</span>
+                  <span class="deck-card__title-line deck-card__title-line--sub">Cursor's Hidden Superpower</span>
+                </span>
+              </h3>
+              <div class="deck-card__prose deck-card__prose--spotlight">
+                <p>Claude Code locks you into Anthropic. Codex locks you into OpenAI.</p>
+                <p>Cursor is model-neutral, giving developers access to the best models across the board.</p>
+                <p>
+                  As new foundational models emerge that are cheaper, faster, or more powerful, Cursor benefits
+                  automatically.
+                </p>
+                <p class="deck-card__prose-kicker">
+                  <strong>The competitors?</strong> They're locked in. <strong>Cursor is not.</strong>
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 5: Honest -->
+      <section class="slide slide--honest" id="honest">
+        <div class="slide__inner">
+          <h2 class="slide-title reveal" data-reveal>Let's Be Honest</h2>
+          <div class="card-grid card-grid--3">
+            <article class="deck-card deck-card--honest reveal" data-reveal>
+              <p class="deck-card__solo">Price: free tools like Codex are hard to ignore</p>
+            </article>
+            <article class="deck-card deck-card--honest reveal" data-reveal>
+              <p class="deck-card__solo">Model Curiosity: Claude feels sharp in moments</p>
+            </article>
+            <article class="deck-card deck-card--honest reveal" data-reveal>
+              <p class="deck-card__solo">Hype Cycles: novelty pulls developers away</p>
+            </article>
+          </div>
+          <p class="punch punch--center punch--bright reveal" data-reveal>That's okay. Here's how we bring them back.</p>
+        </div>
+      </section>
+
+      <!-- Slide 6: Pitch -->
+      <section class="slide slide--pitch" id="back">
+        <div class="slide__inner">
+          <h2 class="slide-title reveal" data-reveal>How I'd Pitch a Developer to Come Back</h2>
+          <div class="reframe-swap reveal" data-reveal id="reframeSwap">
+            <p class="reframe-swap__bad" aria-hidden="false">Which model is better?</p>
+            <p class="reframe-swap__good">Which tool makes you ship faster?</p>
+          </div>
+          <div class="card-grid card-grid--3 card-grid--tight">
+            <article class="deck-card deck-card--pitch reveal" data-reveal>
+              <p class="deck-card__solo deck-card__solo--bold">You don't switch for models. You switch for outcomes.</p>
+            </article>
+            <article class="deck-card deck-card--pitch reveal" data-reveal>
+              <p class="deck-card__solo deck-card__solo--bold">Cursor replaces the entire fragmented tool loop.</p>
+            </article>
+            <article class="deck-card deck-card--pitch reveal" data-reveal>
+              <p class="deck-card__solo deck-card__solo--bold">Repo context + memory + personalization = they stick.</p>
+            </article>
+          </div>
+          <p class="pitch-extra reveal" data-reveal>
+            Own workflow plus team adoption. That's how you win the narrative, not “we shipped first.”
+          </p>
+        </div>
+      </section>
+
+      <!-- Slide 7: Vision -->
+      <section class="slide slide--vision" id="vision">
+        <div class="slide__inner">
+          <h2 class="slide-title reveal" data-reveal>Cursor Isn't a Tool. It's Your AI Coding OS.</h2>
+          <div class="split-deck reveal" data-reveal>
+            <div class="split-deck__panel split-deck__panel--tool">
+              <span class="split-deck__label">A Tool</span>
+              <span class="split-deck__names">Claude / Codex</span>
+            </div>
+            <div class="split-deck__panel split-deck__panel--env">
+              <span class="split-deck__label split-deck__label--glow">The Environment</span>
+              <div class="split-deck__cursor">
+                <img src="./assets/cursor-logo.svg" width="480" height="117" alt="Cursor" />
+              </div>
+            </div>
+          </div>
+          <p class="vision-line reveal" data-reveal>
+            The opportunity isn't to compete on intelligence. It's to become the default place developers do their best work.
+          </p>
+          <p class="vision-line vision-line--secondary reveal" data-reveal>
+            And ultimately, to become what developers think of as the gold standard for an AI-powered editor.
+          </p>
+        </div>
+      </section>
+
+      <!-- Slide 8: A little about me -->
+      <section class="slide slide--closing" id="closing">
+        <div class="slide__inner">
+          <h2 class="slide-title reveal" data-reveal>a little bit about me:</h2>
+          <div class="card-grid card-grid--3">
+            <article class="deck-card deck-card--why reveal" data-reveal>
+              <p class="deck-card__solo deck-card__solo--bold">Born and raised in the Bay, tech is in my blood!</p>
+            </article>
+            <article class="deck-card deck-card--why reveal" data-reveal>
+              <p class="deck-card__solo deck-card__solo--bold">
+                Nearly 5 years at AWS, enterprise sales, large & long deal cycles
+              </p>
+            </article>
+            <article class="deck-card deck-card--why reveal" data-reveal>
+              <p class="deck-card__solo deck-card__solo--bold">I follow the talent. Talent is coming to Cursor.</p>
+            </article>
+          </div>
+
+          <div class="run-with reveal" data-reveal>
+            <div class="run-with__graphic" aria-hidden="true">
+              <div class="run-with__head">
+                <img src="./assets/headshot.png" width="72" height="72" alt="" />
+              </div>
+              <div class="run-with__connector"></div>
+              <span class="run-with__emoji">🏃</span>
+            </div>
+            <p class="run-with__tagline">
+              I want to join this race, and run with <strong>Cursor</strong>!
+            </p>
+          </div>
+
+          <p class="linkedin-wrap reveal" data-reveal>
+            <a
+              class="linkedin-cta"
+              href="https://www.linkedin.com/in/charles-goldstein/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="linkedin-cta__icon" aria-hidden="true">in</span>
+              View my full background on LinkedIn
+            </a>
+          </p>
+        </div>
+        <div class="finish-line" aria-hidden="true">
+          <div class="checkered"></div>
+          <div class="shooting-star"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Why I Want to Join the Race at Cursor, Charles (Charlie) Goldstein ·
+        <a href="https://www.linkedin.com/in/charles-goldstein/" target="_blank" rel="noopener noreferrer"
+          >linkedin.com/in/charles-goldstein</a>
+      </p>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
