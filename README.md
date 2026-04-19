@@ -1,1 +1,0 @@
-# Why-Cursor-Charlie-Goldstein-
